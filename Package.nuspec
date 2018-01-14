@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HTTP_Service</id>
+    <version>0.0.1</version>
+    <authors>Francois Michael Louw</authors>
+    <owners>Francois Michael Louw</owners>
+    <licenseUrl>http://thiswillbesomething</licenseUrl>
+    <projectUrl>http://thiswillbesomething</projectUrl>
+    <iconUrl>http://thiswillbesomething</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a package to handle all the network communications in your app</description>
+    <releaseNotes>this is the initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>HTTP</tags>
+    <!-- <dependencies> -->
+      <!-- <dependency id="Newtonsoft.json" version="10.0.3" /> -->
+	  <!-- <dependency id="Microsoft.Bcl.Build" version="1.0.21" /> -->
+	  <!-- <dependency id="System.Net.Http" version="4.3.0" /> -->
+	  <!-- <dependency id="Xamarin.Forms" version="2.4.0.282" /> -->
+    <!-- </dependencies> -->
+  </metadata>
+  <files>
+    <!-- Cross-platform reference assemblies -->
+    <file src="Plugin_HttpService\Plugin_HttpService\bin\Release\netstandard1.5\Plugin_HttpService.dll" target="lib\netstandard1.4\Plugin_HttpService.dll" />
+    <file src="Plugin_HttpService\Plugin_HttpService\bin\Release\netstandard1.5\Plugin_HttpService.xml" target="lib\netstandard1.4\Plugin_HttpService.xml" />
+    <!-- <file src="Plugin_HttpService.Abstractions\bin\Release\Plugin_HttpService.Abstractions.dll" target="lib\netstandard1.4\Plugin_HttpService.dll" /> -->
+    <!-- <file src="Plugin_HttpService.Abstractions\bin\Release\Plugin_HttpService.Abstractions.xml" target="lib\netstandard1.4\Plugin_HttpService.xml" /> -->
+
+    <!-- iOS reference assemblies -->
+    <file src="Plugin_HttpService\Plugin_HttpService.iOS\bin\Release\Plugin_HttpService.dll" target="lib\Xamarin.iOS10\Plugin_HttpService.dll" />
+    <file src="Plugin_HttpService\Plugin_HttpService.iOS\bin\Release\Plugin_HttpService.xml" target="lib\Xamarin.iOS10\Plugin_HttpService.xml" />
+
+    <!-- Android reference assemblies -->
+    <file src="Plugin_HttpService\Plugin_HttpService.Android\bin\Release\Plugin_HttpService.dll" target="lib\MonoAndroid10\Plugin_HttpService.dll" />
+    <file src="Plugin_HttpService\Plugin_HttpService.Android\bin\Release\Plugin_HttpService.xml" target="lib\MonoAndroid10\Plugin_HttpService.xml" />
+</files>
+</package>
